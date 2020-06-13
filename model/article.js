@@ -17,6 +17,9 @@ const articleSchema = new mongoose.Schema({
     },
     category: {
         type: String
+    },
+    showDetail: {
+        type: String
     }
 })
 
